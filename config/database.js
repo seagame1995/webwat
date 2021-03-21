@@ -2,9 +2,9 @@ import mysql from "mysql";
 
 const connection = mysql.createConnection({
   multipleStatements: true,
-  host: "mariadb",
+  host: "localhost",
   user: "root",
-  password: "1234",
-  database: "webwat"
+  password: "dNDnHMnRL5HI3ThM",
+  database: "web_wat"
 });
 export default connection;
